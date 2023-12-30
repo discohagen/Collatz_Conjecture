@@ -15,6 +15,8 @@ The conjecture suggests that, regardless of the starting number, the sequence wi
 ## Visualization
 The script uses Turtle graphics to plot the Collatz conjecture.
 
+![image](https://github.com/discohagen/Collatz_Conjecture/assets/120599312/af2bb606-63b2-494d-8feb-0a75b48d4b7e)
+
 ## Wikipedia Link
 For more information on the Collatz conjecture, you can refer to the [Wikipedia page](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
