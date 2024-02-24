@@ -1,7 +1,8 @@
 import turtle
 import tkinter
+from typing import List
 
-def collatz_conjecture(number: int) -> [int]:
+def collatz_conjecture(number: int) -> List[int]:
     if number <= 1:
         raise ValueError("Input must be a positive integer greater than one.")
     if number >= 10 ** 15:
@@ -17,7 +18,7 @@ def collatz_conjecture(number: int) -> [int]:
 
     return conjecture
 
-def plot_list_into_turtle(coordinates: [int], title = "", showNumbers = True) -> None:
+def plot_list_into_turtle(coordinates: List[int], title = "", showNumbers = True) -> None:
     turtle.title(title)
     turtle.bgcolor("#1f1f1f")
     s = turtle.getscreen()
